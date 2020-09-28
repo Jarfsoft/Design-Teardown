@@ -2,10 +2,23 @@ header {
     display: flex;
     background-color: #d33a2c;
     justify-content: space-evenly;
-    line-height: 75px;
+    line-height: 95px;
+    height: 90px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+}
+
+.header-itm-bckgrn {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #6d1c14;
+}
+
+header img {
+    width: 52px;
+    height: 72px;
+    margin-top: 25px;
 }
 
 body {
@@ -22,6 +35,11 @@ body {
     background-color: none;
 }
 
+.img {
+    width: 96px;
+    height: 86px;
+}
+
 .change-bkg {
     float: right;
 }
@@ -31,29 +49,29 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    color: white;
 
 }
 
 .writer-1 {
-    background-color: aqua;
+    background-color: #bc3428;
     width: 50%;
     padding-top: 150px;
 }
 .writer-2 {
-    background-color: bisque;
+    background-color: #c7372a;
     width: 50%;
     padding-top: 150px;
 }
 
 .writer-3 {
-    background-color: blue;
+    background-color: #b13125;
     width: 50%;
 
 }
 
 .writer-4 {
-    background-color: #d33a2c;
+    background-color: #bc3428;
     width: 50%;
 
 }
@@ -65,6 +83,12 @@ body {
     align-items: center;
     padding: 20px;
 }
+
+.writer, .wrtr-name{
+    width: 100%;
+    font-size: 10px;
+}
+
 .write {
     margin-right: 350px;
 }
