@@ -25,12 +25,54 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 100;
+    flex-wrap: wrap;
+    
+   
 }
 
-.writers article {
+.writer-1 {
+    background-color: aqua;
     width: 50%;
-    height: 570px;
+    
 }
+.writer-2 {
+    background-color: bisque;
+    width: 50%;
+  
+} 
+
+.writer-3 {
+    background-color: blue;
+    width: 50%;
+    
+}
+
+.writer-4 {
+    background-color: #d33a2c;
+    width: 50%;
+   
+}
+
+.autor-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.write {
+    margin-right: 350px;
+}
+.article-title {
+    padding-left: 20px;
+}
+
+.issues {
+    padding-left: 20px;
+}
+
+.arrow {
+    padding-left: 20px;
+}
+
 
