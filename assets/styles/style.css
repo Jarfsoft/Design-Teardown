@@ -31,8 +31,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-   
+
+
 }
 
 .writer-1 {
@@ -44,18 +44,18 @@ body {
     background-color: bisque;
     width: 50%;
     padding-top: 150px;
-} 
+}
 
 .writer-3 {
     background-color: blue;
     width: 50%;
-    
+
 }
 
 .writer-4 {
     background-color: #d33a2c;
     width: 50%;
-   
+
 }
 
 .autor-flex {
@@ -122,4 +122,70 @@ body {
 
 .in-text {
     background-color: #fff;
+}
+.advertise {
+
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-between;
+
+}
+.ofs {
+  text-align: center;
+}
+
+.partner {
+  border: 1px solid gray ;
+  padding: 50px;
+  border-radius: 5%;
+  text-align: center;
+  background-color: #006fc6;
+}
+p span {
+  font-weight: bold;
+
+}
+.partner-title p {
+  font-size: 1.5em;
+
+}
+.sign {
+  border: 1px solid lightgray;
+  color: white;
+  padding: 10px 15px;
+  background-color: green;
+  text-decoration: none;
+  border-radius: 4%;
+
+}
+.smashing-members {
+  border: 1px solid lightgray;
+  text-align: center;
+  background-color:  #d33a2c;
+  color: white;
+  border-radius: 15px;
+}
+.member-title {
+  color: white;
+  font-size: 2em;
+}
+.smashing-members p {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.feature {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: blue;
+  background-color: white;
+  padding: 10px 15px;
+}
+.signin {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin-left: 300px;
 }
