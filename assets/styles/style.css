@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    background-color: #d33a2c;
+    justify-content: space-evenly;
+    line-height: 75px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.articles {
+    text-align: center;
+}
+
+.change-bkg {
+    float: right;
+}
+
+.writers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100;
+}
+
+.writers article {
+    width: 50%;
+    height: 570px;
+}
+
