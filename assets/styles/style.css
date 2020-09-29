@@ -9,10 +9,6 @@ header {
   font-weight: 700;
 }
 
-body {
-  background-color: #b4b4b4;
-}
-
 .header-itm-bckgrn {
   padding: 15px;
   border-radius: 15px;
@@ -28,6 +24,7 @@ header img {
 body {
   margin: 0;
   padding: 0;
+  background-color: #b4b4b4;
 }
 
 .articles {
@@ -36,7 +33,7 @@ body {
   font-size: 25px;
   position: absolute;
   left: 38%;
-  background-color: none;
+  background-color: transparent;
 }
 
 .img {
@@ -63,6 +60,7 @@ body {
   width: 50%;
   padding-top: 150px;
 }
+
 .writer-2 {
   background-color: #6b6969;
   width: 50%;
@@ -150,7 +148,7 @@ body {
 }
 
 .in-text {
-  background-color :rgb(40, 40, 40);
+  background-color: rgb(40, 40, 40);
 }
 
 .advertise {
@@ -165,7 +163,7 @@ body {
 }
 
 .partner {
-  border: 1px solid gray ;
+  border: 1px solid gray;
   padding: 50px;
   border-radius: 5%;
   text-align: center;
@@ -192,7 +190,7 @@ p span {
 .smashing-members {
   border: 1px solid lightgray;
   text-align: center;
-  background-color:  #707070;
+  background-color: #707070;
   color: white;
   border-radius: 15px;
   height: 600px;
@@ -222,6 +220,7 @@ p span {
   flex-direction: row;
   align-items: center;
   margin-left: 300px;
+  justify-content: center;
 }
 
 .inline-text-center,
@@ -249,7 +248,7 @@ a {
 .design a {
   padding: 0;
   color: white;
-  font-size: 35px
+  font-size: 35px;
 }
 
 .design p {
@@ -268,11 +267,6 @@ a {
 
 .flex {
   display: flex;
-}
-
-.signin {
-  display: flex;
-  justify-content: center;
 }
 
 .smashing-guides {
