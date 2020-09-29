@@ -15,6 +15,10 @@ header {
   background-color: #a9a9a9;
 }
 
+img {
+  filter: grayscale(100%);
+}
+
 header img {
   width: 52px;
   height: 72px;
@@ -25,10 +29,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #d3d3d3;
-}
-
-img {
-  filter: grayscale(100%);
 }
 
 .articles {
@@ -348,8 +348,7 @@ footer {
 
 .footer-link {
   text-align: center;
-  
-} 
+}
 
 .footer-link a {
   text-decoration: none;
@@ -357,5 +356,3 @@ footer {
   padding-top: 20px;
   margin-top: 20px;
 }
-
-
