@@ -1,7 +1,7 @@
 # Design-Teardown
 
 > The Design-teardown page, had many fundaments such as on how to use an fonts, font wieght, colors etc.
-![screenshot](./assets/img/Screenshot.png)
+![screenshot](./assets/images/Screenshot.png)
 
 The project was created based on an  site of smashingmagazine.com . The goal for this exercise is to start training  to think in terms of visual hierarchy, typography and design principles.
 ## Built With
