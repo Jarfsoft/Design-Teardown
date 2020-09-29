@@ -1,6 +1,6 @@
 header {
     display: flex;
-    background-color: #d33a2c;
+    background-color: #443d3de3;
     justify-content: space-evenly;
     line-height: 95px;
     height: 90px;
@@ -9,10 +9,14 @@ header {
     font-weight: 700;
 }
 
+body {
+    background-color: #b4b4b4;
+}
+
 .header-itm-bckgrn {
     padding: 15px;
     border-radius: 15px;
-    background-color: #6d1c14;
+    background-color: #64605f;
 }
 
 header img {
@@ -38,6 +42,8 @@ body {
 .img {
     width: 96px;
     height: 86px;
+    border: 10px solid #b3b1b1;
+    border-radius: 20px;
 }
 
 .change-bkg {
@@ -54,24 +60,24 @@ body {
 }
 
 .writer-1 {
-    background-color: #bc3428;
+    background-color: #686262;
     width: 50%;
     padding-top: 150px;
 }
 .writer-2 {
-    background-color: #c7372a;
+    background-color: #6b6969;
     width: 50%;
     padding-top: 150px;
 }
 
 .writer-3 {
-    background-color: #b13125;
+    background-color: #4b4848;
     width: 50%;
 
 }
 
 .writer-4 {
-    background-color: #bc3428;
+    background-color: #6e6a6a;
     width: 50%;
 
 }
@@ -164,7 +170,7 @@ body {
   padding: 50px;
   border-radius: 5%;
   text-align: center;
-  background-color: #006fc6;
+  background-color: #939799;
 }
 p span {
   font-weight: bold;
@@ -178,7 +184,7 @@ p span {
   border: 1px solid lightgray;
   color: white;
   padding: 10px 15px;
-  background-color: green;
+  background-color: rgb(132, 136, 132);
   text-decoration: none;
   border-radius: 4%;
 
@@ -186,7 +192,7 @@ p span {
 .smashing-members {
   border: 1px solid lightgray;
   text-align: center;
-  background-color:  #d33a2c;
+  background-color:  #707070;
   color: white;
   border-radius: 15px;
   height: 600px;
@@ -203,7 +209,7 @@ p span {
 .feature {
   border: 1px solid lightgray;
   border-radius: 10px;
-  color: blue;
+  color: rgb(90, 90, 90);
   background-color: white;
   padding: 10px 15px;
 }
@@ -213,4 +219,104 @@ p span {
 
   align-items: center;
   margin-left: 300px;
+}
+
+.inline-text-center, a{
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding: 50px;
+}
+
+.design {
+    background-color: #666;
+    padding: 15px 60px 15px 60px;
+}
+
+.design .book-title{
+    color: white;
+    font-weight: bold;
+}
+
+.design div {
+    width: 70%;
+}
+
+.design a {
+    padding: 0;
+    color: white;
+    font-size: 35px
+}
+
+.design p {
+    color: white;
+    width: 100%;
+    font-size: 18px;
+}
+
+.design button {
+    height: 55px;
+    width: 240px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.smashing-guides {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.smashing-guide {
+    margin: 45px;
+    height: 380px;
+    background-color: white;
+    padding: 15px 60px 15px 60px;
+    border-radius: 15px;
+}
+
+.smashing-guide a {
+    font-size: 25px;
+    color: #64605f;
+    text-align:  left;
+}
+
+.smashing-guide button {
+    height: 48px;
+    width: 240px;
+    border: none;
+    border-radius: 15px;
+    background-color: #939799;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4b4848;
+    margin-bottom: 0;
+    padding: 80px 0 80px 0;
+}
+
+.footer-title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-content {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 75px 450px 0 450px;
+}
+
+.guides{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 50px 0;
 }
