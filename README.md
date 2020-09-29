@@ -11,7 +11,7 @@ The project was created based on an  site of smashingmagazine.com . The goal for
 
 ## Live Demo
 
-[Live Demo Link]
+[Live Demo Link](https://rawcdn.githack.com/Jarfsoft/Design-Teardown/9d3b7a1714609decaa56b0fdd101301bb6874de3/index.html)
 
 
 ## Getting Started

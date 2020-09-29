@@ -1,166 +1,165 @@
 header {
-    display: flex;
-    background-color: #443d3de3;
-    justify-content: space-evenly;
-    line-height: 95px;
-    height: 90px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+  display: flex;
+  background-color: #443d3de3;
+  justify-content: space-evenly;
+  line-height: 95px;
+  height: 90px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 body {
-    background-color: #b4b4b4;
+  background-color: #b4b4b4;
 }
 
 .header-itm-bckgrn {
-    padding: 15px;
-    border-radius: 15px;
-    background-color: #64605f;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #64605f;
 }
 
 header img {
-    width: 52px;
-    height: 72px;
-    margin-top: 25px;
+  width: 52px;
+  height: 72px;
+  margin-top: 25px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .articles {
-    text-align: center;
-    width: 25%;
-    font-size: 25px;
-    position: absolute;
-    left: 38%;
-    background-color: none;
+  text-align: center;
+  width: 25%;
+  font-size: 25px;
+  position: absolute;
+  left: 38%;
+  background-color: none;
 }
 
 .img {
-    width: 96px;
-    height: 86px;
-    border: 10px solid #b3b1b1;
-    border-radius: 20px;
+  width: 96px;
+  height: 86px;
+  border: 10px solid #b3b1b1;
+  border-radius: 20px;
 }
 
 .change-bkg {
-    float: right;
+  float: right;
 }
 
 .writers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    color: white;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
 }
 
 .writer-1 {
-    background-color: #686262;
-    width: 50%;
-    padding-top: 150px;
+  background-color: #686262;
+  width: 50%;
+  padding-top: 150px;
 }
 .writer-2 {
-    background-color: #6b6969;
-    width: 50%;
-    padding-top: 150px;
+  background-color: #6b6969;
+  width: 50%;
+  padding-top: 150px;
 }
 
 .writer-3 {
-    background-color: #4b4848;
-    width: 50%;
-
+  background-color: #4b4848;
+  width: 50%;
 }
 
 .writer-4 {
-    background-color: #6e6a6a;
-    width: 50%;
-
+  background-color: #6e6a6a;
+  width: 50%;
 }
 
 .autor-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.writer, .wrtr-name{
-    width: 100%;
-    font-size: 10px;
+.writer,
+.wrtr-name {
+  width: 100%;
+  font-size: 10px;
 }
 
 .write {
-    margin-right: 350px;
+  margin-right: 350px;
 }
+
 .article-title {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .issues {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .arrow {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .article-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-elem {
-    padding: 20px;
+  padding: 20px;
 }
 
 .grid-elem-author {
-    color: #666;
-    font-weight: 700;
+  color: #666;
+  font-weight: 700;
 }
 
 .grid-elem-title {
-    color: black;
-    font-weight: 700;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.arrow-botton{
-    border: none;
-    background: none;
-    padding: 0;
-    width: 120px;
-    height: 120px;
-    text-align: center;
-    font-size: 30px;
+.arrow-botton {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 30px;
 }
 
 .main-section {
-    position: relative;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
 }
 
 .in-text {
-    background-color :rgb(40, 40, 40);
+  background-color :rgb(40, 40, 40);
 }
-.advertise {
 
+.advertise {
   display: flex;
   margin: 20px;
   padding: 20px;
   justify-content: space-between;
-
 }
+
 .ofs {
   text-align: center;
 }
@@ -172,14 +171,15 @@ body {
   text-align: center;
   background-color: #939799;
 }
+
 p span {
   font-weight: bold;
-
 }
+
 .partner-title p {
   font-size: 1.5em;
-
 }
+
 .sign {
   border: 1px solid lightgray;
   color: white;
@@ -187,8 +187,8 @@ p span {
   background-color: rgb(132, 136, 132);
   text-decoration: none;
   border-radius: 4%;
-
 }
+
 .smashing-members {
   border: 1px solid lightgray;
   text-align: center;
@@ -197,11 +197,13 @@ p span {
   border-radius: 15px;
   height: 600px;
 }
+
 .member-title {
   color: white;
   font-size: 2em;
   margin-bottom: 25px;
 }
+
 .smashing-members p {
   font-size: 15px;
   padding: 20px;
@@ -214,129 +216,132 @@ p span {
   background-color: white;
   padding: 10px 15px;
 }
+
 .signin {
   display: flex;
   flex-direction: row;
-
   align-items: center;
   margin-left: 300px;
 }
 
-.inline-text-center, a{
-    text-align: center;
-    color: black;
-    width: 100%;
-    padding: 50px;
+.inline-text-center,
+a {
+  text-align: center;
+  color: black;
+  width: 100%;
+  padding: 50px;
 }
 
 .design {
-    background-color: #666;
-    padding: 15px 60px 15px 60px;
+  background-color: #666;
+  padding: 15px 60px 15px 60px;
 }
 
-.design .book-title{
-    color: white;
-    font-weight: bold;
+.design .book-title {
+  color: white;
+  font-weight: bold;
 }
 
 .design div {
-    width: 70%;
+  width: 70%;
 }
 
 .design a {
-    padding: 0;
-    color: white;
-    font-size: 35px
+  padding: 0;
+  color: white;
+  font-size: 35px
 }
 
 .design p {
-    color: white;
-    width: 100%;
-    font-size: 18px;
+  color: white;
+  width: 100%;
+  font-size: 18px;
 }
 
 .design button {
-    height: 55px;
-    width: 240px;
-    background-color: white;
-    border-radius: 10px;
-    border: none;
+  height: 55px;
+  width: 240px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
+
 .signin  {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .smashing-guides {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .smashing-guide {
-    margin: 45px;
-    height: 380px;
-    background-color: white;
-    padding: 15px 60px 15px 60px;
-    border-radius: 15px;
+  margin: 45px;
+  height: 380px;
+  background-color: white;
+  padding: 15px 60px 15px 60px;
+  border-radius: 15px;
 }
 
 .smashing-guide a {
-    font-size: 25px;
-    color: #64605f;
-    text-align:  left;
+  font-size: 25px;
+  color: #64605f;
+  text-align:  left;
 }
 
 .smashing-guide button {
-    height: 48px;
-    width: 240px;
-    border: none;
-    border-radius: 15px;
-    background-color: #939799;
-    color: white;
-    font-weight: bold;
+  height: 48px;
+  width: 240px;
+  border: none;
+  border-radius: 15px;
+  background-color: #939799;
+  color: white;
+  font-weight: bold;
 }
+
 .all-latest {
-    text-align: center;
+  text-align: center;
 }
 
 .person-week {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .person-week-parag {
-    padding-left: 20px;
-    font-weight: bold;
-    font-size: 1em;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 footer {
-    background-color: #4b4848;
-    margin-bottom: 0;
-    padding: 80px 0 80px 0;
+  background-color: #4b4848;
+  margin-bottom: 0;
+  padding: 80px 0 80px 0;
 }
 
 .footer-title {
-    color: white;
-    font-weight: bold;
-    text-align: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
 
 .footer-content {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    padding: 75px 450px 0 450px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 75px 450px 0 450px;
 }
 
-.guides{
-    width: 100%;
-    text-align: center;
-    padding: 50px 0 50px 0;
+.guides {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 50px 0;
 }
