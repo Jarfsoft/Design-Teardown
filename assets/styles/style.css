@@ -151,7 +151,7 @@ body {
 }
 
 .in-text {
-    background-color: #fff;
+    background-color :rgb(40, 40, 40);
 }
 .advertise {
 
@@ -200,6 +200,7 @@ p span {
 .member-title {
   color: white;
   font-size: 2em;
+  margin-bottom: 25px;
 }
 .smashing-members p {
   font-size: 15px;
@@ -265,6 +266,10 @@ p span {
 .flex {
     display: flex;
 }
+.signin  {
+    display: flex;
+    justify-content: center;
+}
 
 .smashing-guides {
     display: grid;
@@ -294,6 +299,21 @@ p span {
     background-color: #939799;
     color: white;
     font-weight: bold;
+}
+.all-latest {
+    text-align: center;
+}
+
+.person-week {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.person-week-parag {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 footer {
