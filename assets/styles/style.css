@@ -89,11 +89,11 @@ body {
   padding: 20px;
 }
 
-#padding-0 {
+.padding-0 {
   padding: 0;
 }
 
-#margin-20 {
+.margin-20 {
   margin-left: 170px;
   width: 400px;
   line-height: 30px;
@@ -177,6 +177,14 @@ body {
 }
 
 .ofs {
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  margin: 30px 0 0 317px;
+  font-size: 15px;
+  width: 50%;
   text-align: center;
 }
 
@@ -286,6 +294,7 @@ a {
   height: 50px;
   border-radius: 15px;
 }
+
 .newsletter button {
   width: 100px;
   height: 50px;
@@ -380,7 +389,11 @@ a {
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #a9a9a9;
+  background-color: transparent;
+}
+
+.transparent {
+  background-color: transparent;
 }
 
 .person-week-parag {
@@ -414,14 +427,6 @@ footer {
   color: white;
   padding: 0;
   font-size: 20px;
-}
-
-footer p {
-  color: white;
-  margin: 30px 0 0 317px;
-  font-size: 15px;
-  width: 50%;
-  text-align: center;
 }
 
 .shipping {
