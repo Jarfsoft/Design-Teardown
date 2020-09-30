@@ -89,14 +89,26 @@ body {
   padding: 20px;
 }
 
+#padding-0 {
+  padding: 0;
+}
+
+#margin-20 {
+  margin-left: 170px;
+  width: 400px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
 .writer,
 .wrtr-name {
   width: 100%;
-  font-size: 17px;
+  font-size: 21px;
 }
 
 .write {
-  margin-right: 350px;
+  margin-right: 226px;
+  width: 224px;
 }
 
 .article-title {
@@ -238,8 +250,63 @@ a {
 }
 
 .design {
-  background-color: #a9a9a9;
+  background-color: #808080;
   padding: 15px 60px 15px 60px;
+}
+
+.newsletter {
+  margin: 45px;
+  height: 530px;
+  background-color: #808080;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.newsletter img {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.newsletter a {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.newsletter p {
+  color: white;
+  width: 450px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.newsletter input {
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+}
+.newsletter button {
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.slogan {
+  background-color: #c0c0c0;
+  border-radius: 15px;
+  height: 60px;
+  width: 370px;
+  margin-left: 90px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.slogan p {
+  background-color: #dcdcdc;
+  text-align: center;
+  margin: 0 0 0 25px;
+  width: 317px;
 }
 
 .design .book-title {
@@ -283,7 +350,7 @@ a {
 
 .smashing-guide {
   margin: 45px;
-  height: 380px;
+  height: 500px;
   background-color: white;
   padding: 15px 60px 15px 60px;
   border-radius: 15px;
@@ -313,6 +380,7 @@ a {
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #a9a9a9;
 }
 
 .person-week-parag {
@@ -327,19 +395,6 @@ footer {
   padding: 80px 0 80px 0;
 }
 
-.footer-title {
-  color: white;
-  font-weight: bold;
-  text-align: center;
-}
-
-.footer-content {
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  padding: 75px 450px 0 450px;
-}
-
 .guides {
   width: 100%;
   text-align: center;
@@ -347,12 +402,46 @@ footer {
 }
 
 .footer-link {
-  text-align: center;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0 0 90px;
 }
 
 .footer-link a {
   text-decoration: none;
   color: white;
-  padding-top: 20px;
-  margin-top: 20px;
+  padding: 0;
+  font-size: 20px;
+}
+
+footer p {
+  color: white;
+  margin: 30px 0 0 317px;
+  font-size: 15px;
+  width: 50%;
+  text-align: center;
+}
+
+.shipping {
+  align-items: center;
+  text-align: center;
+  margin: 0 0 0 180px;
+  width: 20px;
+}
+
+.shipping button {
+  font-weight: bold;
+  font-size: 15px;
+  color: #a9a9a9;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.end {
+  list-style: none;
+  text-decoration: underline;
 }
